@@ -12,25 +12,18 @@ body {
 
 /* begining of navigation bar */
 
-.navbar {
+header {
     margin: 0;
     font-family: "Work Sans", sans-serif;
     font-weight: 300;
     background-color: rgb(0, 2, 5);
     border-radius: 0 0 1rem 1rem;
     border: 1px solid;
-    background-attachment: fixed;
 }
 
 .container-fluid {
     width: 90%;
     margin: 0 auto;
-}
-
-header {
-    margin: 0;
-    position: relative;
-    background-attachment: fixed;
 }
 
 header::after {
@@ -121,11 +114,37 @@ nav a:active::before {
     color: white;
 }
 
-span.name {
+.name {
     font-weight: bolder;
-    color: var(--primary);
+    color: rgba(249, 165, 8, 0.93);
 }
 
 .header h1 {
     color: var(--primary)
+}
+
+.heading {
+    color: var(--primary);
+    font-family: 'BIZ UDPMincho', serif;
+    padding: 10px 30px;
+}
+
+.heading span {
+    color: var(--tertiary)
+}
+
+.editors {
+    color: var(--primary);
+    font-family: 'BIZ UDPMincho', serif;
+    text-size: 24px
+}
+
+.projects {
+    color: var(--primary);
+}
+
+.links {
+    text-decoration: none;
+    font-size: x-large;
+    padding: 30px;
 }

@@ -3,6 +3,15 @@ body {
     background-color: rgb(25, 9, 42);
 }
 
+:root {
+    --primary: rgb(51, 255, 0);
+    --secondary: rgb(193, 8, 250);
+    --tertiary: red;
+}
+
+
+/* begining of navigation bar */
+
 .navbar {
     margin: 0;
     font-family: "Work Sans", sans-serif;
@@ -10,6 +19,7 @@ body {
     background-color: rgb(0, 2, 5);
     border-radius: 0 0 1rem 1rem;
     border: 1px solid;
+    background-attachment: fixed;
 }
 
 .container-fluid {
@@ -19,6 +29,8 @@ body {
 
 header {
     margin: 0;
+    position: relative;
+    background-attachment: fixed;
 }
 
 header::after {
@@ -91,4 +103,29 @@ nav a:hover::before {
 nav a:active::before {
     background-color: red;
     width: 100%
+}
+
+
+/* end of navigation bar */
+
+.avatar {
+    height: 400px;
+    width: 400px;
+    padding: 2rem;
+    display: block;
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+    color: white;
+}
+
+span.name {
+    font-weight: bolder;
+    color: var(--primary);
+}
+
+.header h1 {
+    color: var(--primary)
 }

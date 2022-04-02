@@ -1,19 +1,24 @@
+body {
+    margin: 0;
+    background-color: rgb(25, 9, 42);
+}
+
 .navbar {
     margin: 0;
     font-family: "Work Sans", sans-serif;
     font-weight: 300;
-    background-color: rgba(159, 10, 196, 0.942);
-    border-radius: 0.5rem;
+    background-color: rgb(0, 2, 5);
+    border-radius: 0 0 1rem 1rem;
     border: 1px solid;
 }
 
-.container {
+.container-fluid {
     width: 90%;
     margin: 0 auto;
 }
 
 header {
-    background-color: rgb(0, 2, 5);
+    margin: 0;
 }
 
 header::after {

@@ -4,9 +4,9 @@
     }
     
      :root {
-        --primary: rgb(51, 255, 0);
-        --secondary: rgb(193, 8, 250);
-        --tertiary: red;
+        --primary: rgb(255, 255, 255);
+        --secondary: rgb(210, 123, 236);
+        --tertiary: rgb(248, 148, 248);
     }
     /* begining of navigation bar */
     
@@ -73,7 +73,7 @@
     }
     
     a {
-        color: rgb(51, 255, 0);
+        color: var(--primary);
     }
     
     a:hover {
